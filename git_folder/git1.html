@@ -10,14 +10,15 @@
     <meta name="robots" content="index, follow" />
     <meta http-equiv="auother" content="Sumit Sharma" />
     <meta http-equiv="pragma" content="no-cache" />
+    <link rel="stylesheet" href="../design_css/git1.css">
     <title>Document</title>
 </head>
 
 <body>
-    <table width="100%" bgcolor="orange" cellspacing="10">
+    <table width="100%" cellspacing="10">
         <th>
-            <h1 align="left"><img src="../image/ux.png" alt="Codex icon" width="64" height="64" />
-                <font size="100" face="Comic sans MS"> CODEX!!</font>
+            <h1 id="heading"><img src="../image/ux.png" alt="Codex icon" width="64" height="64" />
+                <span>CODEX!!</span>
             </h1>
         </th>
         <th>
@@ -43,58 +44,84 @@
     </table>
     <h1><img src="../image/git.png" alt="git" width="24" height="24" />GIT</h1>
     <p>
-        <font color="red">git config --global user.name "Name"</font>:- Set your name in git globally
+        <span>git config --global user.name "Name"</span>:- Set your name in git globally
         <br />
-        <font color="red">git config --global user.email "email@gmail.com"</font>:- Set your email in git globally
+        <span>git config --global user.email "email@gmail.com"</span>:- Set your email in git globally
         <br />
-        <font color="red">git config user.name</font>:- Give the user name
+        <span>git config user.name</span>:- Give the user name
         <br />
-        <font color="red">git config user.email</font>:- Give the user email
+        <span>git config user.email</span>:- Give the user email
         <br />
-        <font color="red">git status</font>:- Give the status of current directory
+        <span>git status</span>:- Give the status of current directory
         <br />
-        <font color="red">git init</font>:- Initialize the directory as a git repository
+        <span>git init</span>:- Initialize the directory as a git repository
         <br />
-        <font color="red">ls</font>:- List all the files and folders of current directory
+        <span>ls</span>:- List all the files and folders of current directory
         <br />
-        <font color="red">pwd</font>:- Give the path of present working directory
+        <span>pwd</span>:- Give the path of present working directory
         <br />
-        <font color="red">cd</font>:- Change directory
+        <span>cd</span>:- Change directory
         <br />
-        <font color="red">git add --a <b>or</b> git add .</font>:- Track all the files or staged all the files
+        <span>git add --a <b>or</b> git add .</span>:- Track all the files or staged all the files
         <br />
-        <font color="red">git add filename</font>:- Track or staged only the given file
+        <span>git add filename</span>:- Track or staged only the given file
         <br />
         <br />
         <img src="../image/code1x.jpg" alt="code1x" width="500" height="332" />
         <br />
-        <font color="red">git commit -m "Initial Commit"</font>:- Commit the state
+        <span>git commit -m "Initial Commit"</span>:- Commit the state
         <br />
-        <font color="red">git log</font>:- Give details of all commits
+        <span>git log</span>:- Give details of all commits
         <br />
-        <font color="red">git commit -a -m "Initial Commit"</font>:- Staged all the files and commit the state
+        <span>git commit -a -m "Initial Commit"</span>:- Staged all the files and commit the state
         <br />
-        <font color="red">rm filename</font>:- Only delete the file
+        <span>rm filename</span>:- Only delete the file
         <br />
-        <font color="red">git rm filename</font>:- Delete the file and also staged it
+        <span>git rm filename</span>:- Delete the file and also staged it
         <br />
-        <font color="red">git mv filename file_rename</font>:- Rename the file and staged it
+        <span>git mv filename file_rename</span>:- Rename the file and staged it
         <br />
-        <font color="red">git clone Given_link folder</font>:- Clone the directory in a given folder from a given link
+        <span>git clone Given_link folder</span>:- Clone the directory in a given folder from a given link
         <br />
-        <font color="red">git log -p</font>:- Show all the details of commit
+        <span>git log -p</span>:- Show all the details of commit
         <br />
-        <font color="red">git log -p -n</font>:- Give all the details of last n commits
+        <span>git log -p -n</span>:- Give all the details of last n commits
         <br />
-        <font color="red">git log --pretty=oneline</font>:- Give details of all commits in one line
+        <span>git log --pretty=oneline</span>:- Give details of all commits in one line
         <br />
-        <font color="red">git log --pretty=full</font>:- Give full details of commit
+        <span>git log --pretty=full</span>:- Give full details of commit
         <br />
-        <font color="red">git log --since=2.days</font>:- Give details of commits since 2 days
+        <span>git log --since=2.days</span>:- Give details of commits since 2 days
         <br />
-        <font color="red">git log --stat</font>:- Give all stats about all commits
+        <span>git log --stat</span>:- Give all stats about all commits
         <br />
-        <font color="red">git commit --amend</font>:- You can merge your last commit with the previous one
+        <span>git commit --amend</span>:- You can merge your last commit with the previous one
+        <br />
+        <span>git remote</span>:- Give the name of remote repository
+        <br />
+        <span>git remote -v</span>:- Give the name of pull and push remote repository
+        <br />
+        <span>git remote add remote_name Given_link</span>:- Add remote in your git bash
+        <br />
+        <span>git restore filename</span>:- Remove all the changes from the given file
+        <br />
+        <span>git restore --staged filename</span>:- Unstaged the given file
+        <br />
+        <span>git checkout -- filename</span>:- Match the file to the previous commit
+        <br />
+        <span>git checkout -f</span>:- Discard all changes and match with previous commit
+        <br />
+        <span>ssh-keygen -t rsa -b 4096 -C "email@gmail.com"</span>:- Generate SSH key
+        <br />
+        <span>eval "$(ssh-agent -s)"</span>:- Tell about your SSH agent id
+        <br />
+        <span>ssh-add ~/.ssh/id_rsa</span>:- Add your SSH private id
+        <br />
+        <span>tail ~/.ssh/id_rsa.pub</span>:- Write your SSH public id in your git bash
+        <br />
+        <span>git push -u origin master</span>:- Push your cod in github
+        <br />
+        <span></span>
     </p>
 </body>
 

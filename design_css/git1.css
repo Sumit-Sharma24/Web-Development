@@ -1,0 +1,17 @@
+table
+{
+    background-color: orange;
+}
+span
+{
+    color: red;
+}
+h1#heading
+{
+    text-align: left;
+}
+h1>span
+{
+    font-size: 100px;
+    color: darkred;
+}
