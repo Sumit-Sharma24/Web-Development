@@ -79,6 +79,9 @@
         <br />
         <span>git rm filename</span>:- Delete the file and also staged it
         <br />
+        <span>git rm --cached filename</span>:- Remove the file from .git folder and treat as it never exist in .git
+        folder
+        <br />
         <span>git mv filename file_rename</span>:- Rename the file and staged it
         <br />
         <span>git clone Given_link folder</span>:- Clone the directory in a given folder from a given link
@@ -123,7 +126,36 @@
         <br />
         <br />
         <img src="../image/code2x.jpg" alt="code2x" width="600" height="400" />
-        <span></span>
+        <br />
+        <span>git push origin bugfix:mybugfix</span>:- Push the bugfix branch code in the remote as a name of mybugfix
+        not bugfix
+        <br />
+        <span>git branch branch_name</span>:- Create a new branch
+        <br />
+        <span>git branch -- branch_name</span>:- Create a new branch
+        <br />
+        <span>git checkout -b branch_name</span>:- Create a new branch_name
+        <br />
+        <span>git checkout branch_name</span>:- Go to the given branch
+        <br />
+        <span>git branch</span>:- Give the name of all branches
+        <br />
+        <span>git merge bugfix</span>:- Merge the bugfix branch in current open branch
+        <br />
+        <span>git branch -d branch_name</span>:- Delete the branch if already merged otherwise give an error
+        <br />
+        <span>git branch -D branch_name</span>:- Delete the branch if it is merged or not
+        <br />
+        <span>git push -d origin</span>:- Delete the bugfix branch from the remote origin
+        <br />
+        <span>git config --global alias.st status</span>:- Change the name of status as st
+        <br />
+        <span>git config --global alias.unstage 'restore --staged'</span>:- Change the "restore --staged" as unstage
+        <br />
+        <span>git config --global --edit</span>:- Open vim editor to change global commands
+        <br />
+        <span>git checkout a41964841db51c08e5d21bc66360a06833fdb659</span>:- Jump on
+        (a41964841db51c08e5d21bc66360a06833fdb659) this commit
     </p>
 </body>
 
